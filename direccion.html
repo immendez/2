@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Direccion</title>
+    <title>Contactanos</title>
     <!--hoja de estilos del contenido principal-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -14,23 +14,33 @@
     <!--para compatir en las redes-->
     <link rel="stylesheet" type="text/css" href="css/estilos_redes.css">
     <!--Para el menu-->
+    <!--Para los estilos de los medios de contacto-->
+    <link rel="stylesheet" type="text/css" href="css/Estilos_contacto.css">
+    <!--Para el menu-->
     <link rel="stylesheet" href="css/estilos_nav_bar.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/ctrl_menu.js"></script>
     <script src="js/main.js"></script>
     <!--Para el boton arriba-->
     <link rel="stylesheet" type="text/css" href="css/estilos_boton_arriba.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/ctrl_btn_up.js"></script>
     <script src="js/arriba.js"></script>
+    <!--Modal-->
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!--favicon-->
     <link rel="icon" type="image/png" href="img/logo.png" sizes="40x40">
    
-   
 
+  
 
 </head>
 <body>
-
-    <header class="site-header">
+<!--<script type="text/javascript">
+  
+window.alert("Da clic en las letras rojas para contarnos");
+alert("Da clic en las letras rojas para contarnos");
+</script>-->
+     <header class="site-header">
         <div class="menu_bar">
             <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a><!---->
         </div>
@@ -61,22 +71,34 @@
         </div><!--contenedor-->
     </header>
     <span class="ir-arriba icon-ctrl"></span>
-    <main class="contenedor">
-        <h2 class="centrar-texto">Nuestra Direcciòn es</h2>
+    <div class="contenido-principal contenedor">
+        
+            <h2 class="centrar-texto">Nuestra Direcciòn es</h2>
         <p class="centrar-texto">Calle tal número tal, colonia tal, C.P. tal, Alcaldía tal</p>
         <div class="centro">
             <iframe class="centrar-texto" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d235.15059490468937!2d-99.14103383535337!3d19.43790279223039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1582247195582!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-       
 
+
+
+
+
+     
+    </div><!--contenido-principal-->
+    <!--<section  id="Concacto">
+        <span id="span_contactanos">Contactanos</span> 
         
-
-      
-    
-       
-    </main>
-
-    
+                  <div class="cuerpo_contacto_yahoo">    
+              <div class="iconos_contacto_linkeados_yahoo">
+                  <a id="c_yahoo" href="" target="_blank"></a>
+                  <div id="c_yahoo_texto">Yahoo</div>
+                  <div id="c_yahoo_texto_link" >
+                      <a href="mailto:" target="_blank">Correo@dominio.com</a>
+                  </div>
+               </div>
+          </div>
+         </section>-->
+     
     <footer>
         <div class="contenedor_footer">
             <p id="comparte">Comparte esta pagina en tus redes sociales</p>
